@@ -1,1 +1,7 @@
 <h1>My Robots</h1>
+<% @robots.each do |robot| %>
+  <h3><%= robot.name %></h3>
+  <p>City: <%= robot.city %></p>
+  <p>State: <%= robot.state %></p>
+  <p>Department: <%= robot.department %></p>
+<% end %>
