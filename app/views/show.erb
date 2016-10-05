@@ -1,4 +1,7 @@
-<h3><%= @robot.name %></h3>
-<p>City: <%= @robot.city %></p>
-<p>State: <%= @robot.state %></p>
-<p>Department: <%= @robot.department %></p>
+<div class="column-md-12 text-center well">
+  <img class="robot-pics" src="https://robohash.org/<%= @robot.name %>.png">
+  <h3><%= @robot.name %></h3>
+  <p>City: <%= @robot.city %></p>
+  <p>State: <%= @robot.state %></p>
+  <p>Department: <%= @robot.department %></p>
+</div>

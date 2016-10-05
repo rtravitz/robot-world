@@ -1,0 +1,28 @@
+.navbar {
+  background-color: #f2c75c;
+}
+
+.nav.navbar-nav.navbar-right li a {
+  color: #fff;
+}
+
+.nav.navbar-nav.navbar-right li a:hover {
+  color: #686868;
+}
+
+.navbar-default .navbar-brand {
+  color: #fff;
+}
+
+.navbar-default .navbar-brand:hover {
+  color: #686868;
+}
+
+.navbar-default .navbar-toggle .icon-bar {
+  background-color: #fff;
+}
+
+.robot-btn {
+  margin: 0 5% 0 5%;
+  width: 40%;
+}
