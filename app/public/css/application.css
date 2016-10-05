@@ -1,5 +1,7 @@
 .navbar {
-  background-color: #f2c75c;
+  background-color: #183a72;
+  background: linear-gradient(-90deg, rgb(22, 135, 237), rgb(20, 55, 90));
+  background: -webkit-linear-gradient(-90deg, rgb(22, 135, 237), rgb(20, 55, 90));
 }
 
 .nav.navbar-nav.navbar-right li a {
@@ -25,4 +27,10 @@
 .robot-btn {
   margin: 0 5% 0 5%;
   width: 40%;
+}
+
+.jumbotron {
+  background-image: url(https://robohash.org/robot.png);
+  background-repeat: no-repeat;
+  background-position: right;
 }
