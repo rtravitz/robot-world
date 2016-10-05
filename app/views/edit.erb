@@ -1,0 +1,13 @@
+<form action="/robots/<%= @robot.id %>" method="post">
+  <h3>Reconstructing the Robot</h3>
+  <input type="hidden" name="_method" value="PUT">
+  <label>Name</label>
+  <input type="text" value="<%= @robot.name %>" name="robot[name]"><br>
+  <label>City</label>
+  <input type="text" value="<%= @robot.city %>" name="robot[city]"><br>
+  <label>State</label>
+  <input type="text" value="<%= @robot.state %>" name="robot[state]"><br>
+  <label>Department</label>
+  <input type="text" value="<%= @robot.department %>" name="robot[department]"><br>
+  <input type="submit">
+</form>
